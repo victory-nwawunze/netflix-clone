@@ -24,3 +24,27 @@ a{
     color: #fff;
     text-decoration: none;
 }
+p{
+    margin: 0.5rem 0;
+}
+img{
+    width: 100%;
+}
+.showcase{
+    width: 100%;
+    height: 93vh;
+    position:relative;
+    background-image: url('../img/netflix-bg-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.showcase-top{
+    position:relative;
+    height:90px;
+
+}
+.showcase-top img{
+    width: 170px;
+}
