@@ -10,7 +10,9 @@ function selectItem(e) {
   // Add border to current tab
   this.classList.add("tab-border");
   //   Grab content item from DOM
-  const tabContentItem = document.querySelector(`#${this.id}`);
+  const tabContentItem = document.querySelector(`#${this.id}-content`);
+  //   Adding show class
+  tabContentItem.classList.add("show");
 }
 function removeBorder() {
   tabItems.forEach((item) => item.classList.remove("tab-border"));
